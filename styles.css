@@ -67,6 +67,7 @@
 .botton-image{
     height: 205px;
     min-width: 100%;
+    border-radius: 7px;
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat; /*Configuracion de las imagenes*/
@@ -77,7 +78,7 @@
 }
 
 .botton2-image{
-    background-image: url(Assets/AppDeveloper.jpg);
+    background-image: url(Assets/ParalaxProject.jpg);
 }
 
 .botton3-image{
@@ -87,6 +88,12 @@
 
 /*todo lo antrerior son las imagenes de los botones*/
 
+
+.projectlink{
+    text-decoration: none;
+}
+
+/*zona de contacto*/
 .contact-info{
     height: 200px;
     min-width: 100%;
