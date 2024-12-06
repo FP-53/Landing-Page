@@ -26,6 +26,55 @@
     text-shadow: 4px 3px #333;
 } /*detalles del titulo*/
 
+.botton-section{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.botton{
+    height: 325px;
+    width: 250px;
+    border-radius: 7px;
+    box-shadow: 0px 0px 15px #ccc;
+    background-color: #ddd;
+    color: #222;
+    transition: 2s;
+    align-items: center;
+    text-align: center;
+    padding: 10px
+}
+
+.botton:hover{
+    height: 335px;
+    width: 265px;
+    box-shadow: 0px 0px 25px #eee;
+}
+
+.botton-image{
+    height: 205px;
+    min-width: 100%;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.botton1-image{
+    background-image: url(Assets/WebDeveloper.jpg);
+}
+
+.botton2-image{
+    background-image: url(Assets/AppDeveloper.jpg);
+}
+
+.botton3-image{
+    background-image: url(Assets/VideoGameDeveloper.jpg);
+}
+
+.botton4-image{
+    background-image: url(Assets/IADeveloper.jpg);
+}
+
 .section-black{
     min-width: 100%;
     min-height: 150px;
@@ -52,3 +101,4 @@ body, html {
     padding: 0;
     box-sizing: border-box;
 }
+
