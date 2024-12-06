@@ -67,14 +67,14 @@
 .botton-image{
     height: 205px;
     min-width: 100%;
-    border-radius: 7px;
+    border-radius: 10px;
     background-position: center;
-    background-size: cover;
+    background-size: contain;
     background-repeat: no-repeat; /*Configuracion de las imagenes*/
 }
 
 .botton1-image{
-    background-image: url(Assets/WebDeveloper.jpg);
+    background-image: url(Assets/CardProject.jpg);
 }
 
 .botton2-image{
@@ -82,7 +82,7 @@
 }
 
 .botton3-image{
-    background-image: url(Assets/VideoGameDeveloper.jpg);
+    background-image: url(SuperXtraMarket/assets/fullxtra.png);
 }
 
 

@@ -1,0 +1,79 @@
+body{
+    background-color: #333;
+    font-family: sans-serif;
+    margin: 0;
+}
+
+.container{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-around;
+}
+
+.pokemon{
+    width: 300px;
+    height: 300px;
+    border-radius: 10px;
+    text-align: center;
+    padding: 30px;
+    box-shadow: 0 0 20px #ddd;
+    transition: 1s;
+    box-sizing: border-box;
+}
+
+.img_pokemon{
+    height: 50%;
+    width: 60%;
+    border-radius: 8px;
+    margin-bottom: 7px;
+}
+
+.bulbasaur{
+    background-color: #efe;
+}
+
+.bulbasaur:hover{
+    width: 370px;
+    height: 370px;
+    box-shadow: 0 0 60px #3e5;
+}
+
+.charmander{
+    background-color: #fee;
+}
+
+.charmander:hover{
+    width: 370px;
+    height: 370px;
+    box-shadow: 0 0 60px #f66;
+}
+
+.squirtle{
+    background-color: #eef;
+}
+
+.squirtle:hover{
+    width: 370px;
+    height: 370px;
+    box-shadow: 0 0 60px #3ff;
+}
+
+.dialogo{
+    width: 100%;
+    height: 200px;
+    background-color: #fff;
+    border: solid 5px #000;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: start;
+}
+
+.prof_oak{
+    height: 190px;
+}
+
+.prof_oak_text{
+    height: 180px;
+    width: 70%;
+    font-family:fantasy;
+}
