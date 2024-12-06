@@ -26,10 +26,23 @@
     text-shadow: 4px 3px #333;
 } /*detalles del titulo*/
 
+.section-black{
+    min-width: 100%;
+    min-height: 150px;
+    background-color: #333;
+    font-size: 50px;
+    color: #fff;
+    margin-bottom: 70px;
+    text-shadow: 0px 0px 7px #66f; 
+    box-shadow: 0px 0px 20px #fff;
+    
+    /*Seccion negra de la pagina inferior al titulo*/
+}
+
 .botton-section{
     display: flex;
     justify-content: space-around;
-    flex-wrap: wrap;
+    flex-wrap: wrap; /*forma en que se ve la seccion de los botones*/
 }
 
 .botton{
@@ -39,10 +52,10 @@
     box-shadow: 0px 0px 15px #ccc;
     background-color: #ddd;
     color: #222;
-    transition: 2s;
+    transition: 1.5s;
     align-items: center;
     text-align: center;
-    padding: 10px
+    padding: 10px /*configuracion general de los botones*/
 }
 
 .botton:hover{
@@ -56,7 +69,7 @@
     min-width: 100%;
     background-position: center;
     background-size: cover;
-    background-repeat: no-repeat;
+    background-repeat: no-repeat; /*Configuracion de las imagenes*/
 }
 
 .botton1-image{
@@ -71,20 +84,43 @@
     background-image: url(Assets/VideoGameDeveloper.jpg);
 }
 
-.botton4-image{
-    background-image: url(Assets/IADeveloper.jpg);
-}
 
-.section-black{
+/*todo lo antrerior son las imagenes de los botones*/
+
+.contact-info{
+    height: 200px;
     min-width: 100%;
-    min-height: 150px;
-    background-color: #333;
-    font-size: 50px;
-    color: #fff;
-    margin-bottom: 70px;
-    text-shadow: 0px 0px 7px #66f;
+    display: flex;
+    margin-top: 50px;
+    box-shadow: 0px 0px 20px #fff;
 }
 
+.info{
+    min-height: 100%;
+    width: 50%;
+    background-color: #555;
+}
+
+.contactme{
+    border: 0px;
+    border-right: 1px;
+    border-color: #999;
+    border-style: solid;
+}
+
+.aboutme{
+    border: 0px;
+    border-left: 1px;
+    border-color: #999;
+    border-style: solid;
+    padding-left: 5px;
+}
+
+
+
+
+
+/*Todo lo que sigue son los ajustes generales de todo lo que no tiene estilos añadidos anteriormente*/
 body, html {
     height: 100%;
     font-family: sans-serif;
